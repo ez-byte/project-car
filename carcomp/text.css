@@ -1,0 +1,13 @@
+a:hover{
+background-color: burlywood;
+background: fuchsia;
+}
+a:link{
+color: forestgreen;
+}
+a:active{
+    color: mediumblue;
+}
+li:visited{
+    background-color: olivedrab;
+}

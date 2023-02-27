@@ -1,0 +1,27 @@
+a{
+    outline:;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+a:link{
+    color: lightblue;
+}
+a:visited{
+    background: lightslategray;
+
+}
+a:focus{
+    border: 1px salmon;
+    background: lightslategray;
+}
+a:hover{
+    border: 1px solid #f8f9f9;
+    background: #173459;
+    color: mediumorchid;
+}
+a:active{
+    text-decoration: underline;
+    border: 1px solid limegreen;
+    background: mediumpurple;
+    color:mediumseagreen
+}

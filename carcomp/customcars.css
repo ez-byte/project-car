@@ -1,0 +1,108 @@
+h1{
+    color: black;
+    background-color: white;
+    font: 96px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+body{
+    color:whitesmoke;
+    background-color:whitesmoke;
+    font: 100px; ;
+    font-size:small ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    margin: 3px,20px,3px,20px;
+    border: blue;
+    border-left:blue;
+    padding: 6px;
+    text-align: center;
+}
+h2{
+color: rgb(61, 122, 61);
+background-color: green;
+font: 200px;
+font-size: x-large;
+font-family: 'Times New Roman', Times, serif;
+font-weight: inherit;
+font-style: oblique;
+margin-right: 0vmax;
+border: green;
+border-left: green;
+padding: 5px;
+}
+p{
+    color:silver;
+    background-color: blue ;
+    font: small-caps;
+    font-size: inherit;
+    font-family:sans-serif;
+    font-weight: none;
+    font-style:oblique;
+    margin: none;
+    border-left-color:black;
+    padding: 0px;
+    letter-spacing: 2px;
+}
+a{
+    text-align: left;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-rendering: auto;
+    padding: 2px;
+    position: -webkit-sticky;
+    color: black;
+    background-color: yellowgreen;
+
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: maroon;
+}
+ul{
+    list-style-image: image-set(bmw.html)
+}
+div#page{
+    width: 200;
+    margin-left: inherit;
+}
+#container{
+    text-align: right;
+    margin: auto;
+    width: 600px;
+    background-color:salmon;
+}
+#nav{
+    float: left;
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding: 6px;
+    list-style: -moz-repeating-linear-gradient(4);
+    text-align: left;
+    background-color: orchid;
+}
+#footer{
+    margin-bottom: inherit;
+    color: brown;
+    background: black
+    padding: 4px;
+    text-align: left;
+    font-size: large;
+}
+@media screen{
+    cursor: text-align: ::before;
+    color: :any-link;
+    background-color: ::content; 
+}
+table ::content{
+    color: navy;
+    background-color: navy;
+    text-align: right;
+}
